@@ -17,13 +17,13 @@ ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[w
 stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
 commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
-titleDelay = 0 # title speed : "title" in front matter
-contentDelay = 0 # content speed : content in .md file
+titleDelay = 5 # title speed : "title" in front matter
+contentDelay = 10 # content speed : content in .md file
 
 
 description = """
 Hi I am Narayan!
-I prefer to listen rather than talk, I'm less reactive, so if you think I'm ignoring you, no man, I'm an introvert.
+I prefer to listen rather than talk and I'm less reactive, so if you think I'm ignoring you, no man, I'm an introvert.
 """
 
 
