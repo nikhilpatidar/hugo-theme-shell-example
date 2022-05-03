@@ -1,17 +1,45 @@
-baseURL = "https://hugo-theme-shell.netlify.app/"
+baseURL = "https://lighthearted-blancmange-7484ab.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Portfolio"
 theme = "hugo-theme-shell"
 
 [Params]
     [Params.Terminal]
     schema = "monokai"
 
-    [Params.Tree]
-    use = true
-    files = [
-        ["C/C++", "https://www.example.com/"],
-        ["Python", "https://www.example.com/"],
-        ["Go", "/works/go.md"],
-        ["Hugo", "/works/hugo.md"]
-    ]
+userName = "nick"
+pcName = "laptop"
+workDir = "mydir"
+profile = "profile.txt"
+
+
+ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+titleDelay = 0 # title speed : "title" in front matter
+contentDelay = 0 # content speed : content in .md file
+
+
+description = """
+Hi I am Narayan!
+Nice to meet you!
+"""
+
+
+[Params.Tree]
+use = true
+folderName = "my_activity"
+files = [ 
+["Kuklink", "https://www.kuklink.net/"],
+["Kuklink Bot", "https://github.com/nikhilpatidar/kuklink"],
+["GitHub", "https://github.com/nikhilpatidar"],
+["Buddy ❤️", "https://github.com/sumit-buddy"],
+["ComputerBuddy_tg", "https://telegram.me/ComputerBuddy"],
+["thetechnohack_tg", "https://telegram.me/thetechnohack"],
+]
+
+
+[author]
+name = "Narayan"
+homepage = "/"
