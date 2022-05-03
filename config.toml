@@ -1,4 +1,4 @@
-baseURL = "https://lighthearted-blancmange-7484ab.netlify.app/"
+baseURL = "https://nikhilpatidar.netlify.app"
 languageCode = "en-us"
 title = "Portfolio"
 theme = "hugo-theme-shell"
