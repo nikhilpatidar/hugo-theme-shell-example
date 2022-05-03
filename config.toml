@@ -14,7 +14,7 @@ profile = "profile.txt"
 
 
 ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+stdoutDelay = 10 # stdout speed : [description] , files in Params.Tree
 commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
 titleDelay = 5 # title speed : "title" in front matter
