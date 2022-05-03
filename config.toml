@@ -14,7 +14,7 @@ profile = "profile.txt"
 
 
 ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-stdoutDelay = 10 # stdout speed : [description] , files in Params.Tree
+stdoutDelay = 15 # stdout speed : [description] , files in Params.Tree
 commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
 titleDelay = 5 # title speed : "title" in front matter
@@ -23,7 +23,8 @@ contentDelay = 10 # content speed : content in .md file
 
 description = """
 Hi I am Narayan!
-I prefer to listen rather than talk and I'm less reactive, so if you think I'm ignoring you, no man, I'm an introvert.
+I prefer to listen rather than talk and i'm less reactive, so if you think i'm ignoring you,
+no man, i'm an Introvert.
 """
 
 
