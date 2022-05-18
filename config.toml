@@ -31,7 +31,8 @@ no man, i'm an Introvert.
 [Params.Tree]
 use = true
 folderName = "my_activity"
-files = [ 
+files = [
+["Thetechnohack", "https://thetechnohack.cf/"],
 ["Kuklink", "https://www.kuklink.net/"],
 ["Kuklink Bot", "https://github.com/nikhilpatidar/kuklink"],
 ["GitHub", "https://github.com/nikhilpatidar"],
