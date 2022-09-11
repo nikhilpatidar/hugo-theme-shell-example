@@ -7,7 +7,7 @@ theme = "hugo-theme-shell"
     [Params.Terminal]
     schema = "monokai"
 
-userName = "nick"
+userName = "nicklord"
 pcName = "laptop"
 workDir = "mydir"
 profile = "profile.txt"
